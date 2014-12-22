@@ -1,0 +1,151 @@
+@font-face {
+	font-family: corbert;
+	src: url('corbert.otf');
+}
+
+body {
+	font-family: corbert;
+	background: #eee;
+}
+
+.no-overflow {
+	overflow-x: hidden;
+}
+
+.about, .recruitment, .contact {
+	background-size: cover;
+	background: #ccc;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.box {
+	height: 300px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 100px;
+	cursor: pointer;
+	margin-bottom: 10px;
+	left: 50%;
+}
+
+.comm, .mtw {
+	margin-left: 10px;
+}
+
+.bbbs, .rfl {
+	margin-left: -150px;
+}
+
+.gotb, .tgb {
+	margin-left: -460px;
+}
+
+.gotb {
+	background-image: url(gontb.png);
+}
+
+.gotb:hover {
+	background-image: url(gotb1.png);
+}
+
+.bbbs {
+	background-image: url(bbbs.png);
+}
+
+.bbbs:hover {
+	background-image: url(bbbs1.png);
+}
+
+.rfl {
+	background-image: url(rfl.png);
+}
+
+.rfl:hover {
+	background-image: url(rfl1.png);
+}
+
+.tgb {
+	background-image: url(tgb.png);
+}
+
+.tgb:hover {
+	background-image: url(tgb1.png);
+}
+
+.comm {
+	background-image: url(comm.png);
+}
+
+.comm:hover {
+	background-image: url(comm1.png);
+}
+
+.mtw {
+	background-image: url(mtw.png);
+}
+
+.mtw:hover {
+	background-image: url(mtw1.png);
+}
+
+.new, .about, .philanthropy, .recruitment, .brothers, .contact {
+	padding-left: 20px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.new {
+	padding-top: 150px;
+}
+
+.header {
+	background: #fff;
+	padding-bottom: 30px;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+.logo {
+	position: absolute;
+	left: 50%;
+	width: 250px;
+	height: 100px;
+	margin-left: -125px;
+}
+
+.crest {
+	position: absolute;
+	left: 50%;
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	border-bottom: 30px white;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+}
+
+.nav {
+	padding-top: 100px;
+	text-align: center;
+	padding-right: 40px;
+}
+
+.nav ul li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+}
+
+.cycle {
+	background-size: cover;
+	background-image: url("brothers.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	z-index: -1;
+}
