@@ -6,13 +6,14 @@
 body {
 	font-family: corbert;
 	background: #eee;
+	text-align: center;
 }
 
 .no-overflow {
 	overflow-x: hidden;
 }
 
-.about, .recruitment, .contact {
+.about, .recruitment {
 	background-size: cover;
 	background: #ccc;
 }
@@ -26,7 +27,6 @@ a:hover {
 	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 100px;
 	cursor: pointer;
 	margin-bottom: 10px;
 	left: 50%;
@@ -45,57 +45,55 @@ a:hover {
 }
 
 .gotb {
-	background-image: url(gontb.png);
+	background-image: url(images/gontb.png);
 }
 
 .gotb:hover {
-	background-image: url(gotb1.png);
+	background-image: url(images/gotb1.png);
 }
 
 .bbbs {
-	background-image: url(bbbs.png);
+	background-image: url(images/bbbs.png);
 }
 
 .bbbs:hover {
-	background-image: url(bbbs1.png);
+	background-image: url(images/bbbs1.png);
 }
 
 .rfl {
-	background-image: url(rfl.png);
+	background-image: url(images/rfl.png);
 }
 
 .rfl:hover {
-	background-image: url(rfl1.png);
+	background-image: url(images/rfl1.png);
 }
 
 .tgb {
-	background-image: url(tgb.png);
+	background-image: url(images/tgb.png);
 }
 
 .tgb:hover {
-	background-image: url(tgb1.png);
+	background-image: url(images/tgb1.png);
 }
 
 .comm {
-	background-image: url(comm.png);
+	background-image: url(images/comm.png);
 }
 
 .comm:hover {
-	background-image: url(comm1.png);
+	background-image: url(images/comm1.png);
 }
 
 .mtw {
-	background-image: url(mtw.png);
+	background-image: url(images/mtw.png);
 }
 
 .mtw:hover {
-	background-image: url(mtw1.png);
+	background-image: url(images/mtw1.png);
 }
 
-.new, .about, .philanthropy, .recruitment, .brothers, .contact {
-	padding-left: 20px;
-	padding-top: 75px;
-	padding-bottom: 75px;
+.new, .about, .philanthropy, .recruitment, .brothers {
+	padding: 75px 80px 80px 75px;
 }
 
 .new {
@@ -144,8 +142,21 @@ a:hover {
 
 .cycle {
 	background-size: cover;
-	background-image: url("brothers.png");
+	background-image: url(images/brothers.png);
 	background-repeat: no-repeat;
 	background-position: top center;
 	z-index: -1;
+}
+
+p {
+	padding-top: 10px;
+	color: black;
+}
+
+.media a:hover > p {
+	color: #337ab7;
+}
+
+.panel-footer {
+	background-color: white;
 }

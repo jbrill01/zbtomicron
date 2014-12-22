@@ -35,10 +35,10 @@ $(document).ready(function() {
 //Homepage Slideshow//
 
 var images = [], x = -1;
-images[0] = "gotb.png";
-images[1] = "formal.png";
-images[2] = "gotb2.png";
-images[3] = "brothers.png";
+images[0] = "images/gotb.png";
+images[1] = "images/formal.png";
+images[2] = "images/gotb2.png";
+images[3] = "images/brothers.png";
 
 function displayNextImage() {
   if($(".cycle").is(":visible")) {
