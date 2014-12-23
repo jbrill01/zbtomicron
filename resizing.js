@@ -333,7 +333,7 @@ function togText1() {
   $('#t4').css('text-decoration', 'none');
   $('#t5').css('text-decoration', 'none');
   $('#t6').css('text-decoration', 'none');
-  $('#toggleText').html("<h5>President: Matthew Felsenfeld</h5><h5>Vice President: Joseph Cirone</h5><h5>Brotherhood Development Director: Ryan Hastings-Echo</h5><h5>Secretary: Jacob Mittleman</h5><h5>Treasurer: Jonathan Sirota</br></h5>");
+  $('#toggleText').html("<h5>President: Matthew Felsenfeld</h5><h5>Vice President: Joseph Cirone</h5><h5>Brotherhood Development Director: Ryan Hastings-Echo</h5><h5>Secretary: Jacob Mittleman</h5><h5>Treasurer: Jonathan Sirota</br></br></br></br></br></br></br></h5>");
 }
 
 
@@ -344,7 +344,7 @@ function togText2() {
   $('#t5').css('text-decoration', 'none');
   $('#t6').css('text-decoration', 'none');
   $('#t2').css('text-decoration', 'underline');
-  $('#toggleText').html("<h5>Andrew Carp: E'15</h5><h5>Zachary Fialkow: A'15</h5><h5>Daniel Griffin: E'15</h5><h5>Jonathan Wolf: A'15</br></h5>");
+  $('#toggleText').html("<h5>Andrew Carp: E'15</h5><h5>Zachary Fialkow: A'15</h5><h5>Daniel Griffin: E'15</h5><h5>Jonathan Wolf: A'15</br></br></br></br></br></br></br></br></br></h5>");
 }
 
 function togText3() {
@@ -354,7 +354,7 @@ function togText3() {
   $('#t5').css('text-decoration', 'none');
   $('#t6').css('text-decoration', 'none');
   $('#t3').css('text-decoration', 'underline');
-  $('#toggleText').html("<h5>Jason Brillon: A'16</h5><h5>Steven Carbone: A'15</h5><h5>Daniel Diaz: A'15</h5><h5>Rayn Riel: A'15</h5><h5>Mitul Rathod: A'16</h5><h5>Justin Silva: A'15</h5><h5>Ray Xiao: A'15</br></h5>");
+  $('#toggleText').html("<h5>Jason Brillon: A'16</h5><h5>Steven Carbone: A'15</h5><h5>Daniel Diaz: A'15</h5><h5>Rayn Riel: A'15</h5><h5>Mitul Rathod: A'16</h5><h5>Justin Silva: A'15</h5><h5>Ray Xiao: A'15</br></br></br></br></h5>");
 }
 
 function togText4() {
@@ -364,7 +364,7 @@ function togText4() {
   $('#t5').css('text-decoration', 'none');
   $('#t6').css('text-decoration', 'none');
   $('#t4').css('text-decoration', 'underline');
-  $('#toggleText').html("<h5>John Taylor Armstrong: A'15</h5><h5>Bryan Dumond: A'15</h5><h5>Christopher Gambro: A'15</h5><h5>David Hernandez: E'15</h5><h5>Bob Liu: A'15</h5><h5>Nikhil Shinday: E'16</br></h5>");
+  $('#toggleText').html("<h5>John Taylor Armstrong: A'15</h5><h5>Bryan Dumond: A'15</h5><h5>Christopher Gambro: A'15</h5><h5>David Hernandez: E'15</h5><h5>Bob Liu: A'15</h5><h5>Nikhil Shinday: E'16</br></br></br></br></br></br></h5>");
 }
 
 function togText5() {
@@ -374,7 +374,7 @@ function togText5() {
   $('#t4').css('text-decoration', 'none');
   $('#t6').css('text-decoration', 'none');
   $('#t5').css('text-decoration', 'underline');
-  $('#toggleText').html("<h5>David Bernstein: E'17</h5><h5>Joseph Cirone: E'17</h5><h5>Matthew Felsenfeld: A'16</h5><h5>Morgan Gellert: E'17</h5><h5>Ryan Hastings-Echo: A'17</h5><h5>Ryan Havens: A'17</h5><h5>Justin Lee: A'17</h5><h5>Matthew Mazzarella: A'17</h5><h5>Jacob Mittleman: A'17</h5><h5> Nikhil Nandagopal: A'17</h5><h5>Andrew Narahara: E'17</h5><h5>Benjamin Pall: E'17</h5><h5>Jonathan Sirota: A'17</br></h5>");
+  $('#toggleText').html("<h5>David Bernstein: E'17</h5><h5>Joseph Cirone: E'17</h5><h5>Matthew Felsenfeld: A'16</h5><h5>Morgan Gellert: E'17</h5><h5>Ryan Hastings-Echo: A'17</h5><h5>Ryan Havens: A'17</h5><h5>Justin Lee: A'17</h5><h5>Matthew Mazzarella: A'17</h5><h5>Jacob Mittleman: A'17</h5><h5> Nikhil Nandagopal: A'17</h5><h5>Andrew Narahara: E'17</h5><h5>Benjamin Pall: E'17</h5><h5>Jonathan Sirota: A'17</h5>");
 }
 
 function togText6() {
@@ -384,5 +384,5 @@ function togText6() {
   $('#t4').css('text-decoration', 'none');
   $('#t5').css('text-decoration', 'none');
   $('#t6').css('text-decoration', 'underline');
-  $('#toggleText').html("<h5>Arlo Clarke: E'17</h5><h5>Joshua Insler: A'17</h5><h5>James Lacitignola: A'17</h5><h5>Kevin Meli: E'17</h5><h5>Benjamin Shipley: A'17</h5><h5>Trevor Vassallo: E'16</br></h5>");
+  $('#toggleText').html("<h5>Arlo Clarke: E'17</h5><h5>Joshua Insler: A'17</h5><h5>James Lacitignola: A'17</h5><h5>Kevin Meli: E'17</h5><h5>Benjamin Shipley: A'17</h5><h5>Trevor Vassallo: E'16</br></br></br></br></br></br></h5>");
 }
