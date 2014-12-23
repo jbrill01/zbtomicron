@@ -1,15 +1,39 @@
-//Scale cover photo//
+//Scale cover photo and everything else//
 $(document).ready(function() {
    var windowHeight = $(window).height();
    var $imageWrapper = $('.resizable');
    $imageWrapper.height( windowHeight );
-    });
+   var windowWidth = $(window).width();
+   var percentage = windowWidth/1284;
+   var currheight = 300*percentage;
+   var h1font = 30*percentage;
+   var h4font = 18*percentage;
+   var pfont = 16*percentage;
+   $('.box').css('height',currheight+'px');
+   $('.box').css('width',currheight+'px');
+   $('.box').css('background-size', currheight+'px');
+   $('h1').css('font-size', h1font+'px');
+   $('h4').css('font-size', h4font+'px');
+   $('p').css('font-size', pfont+'px');
+});
 
-// Change the cover photo on window resize//
+// Change the cover photo and everything else//
 $(window).resize(function() {
    var windowHeight = $(window).height();
    var $imageWrapper = $('.resizable');
    $imageWrapper.height( windowHeight );
+   var windowWidth = $(window).width();
+   var percentage = windowWidth/1284;
+   var currheight = 300*percentage;
+   var h1font = 30*percentage;
+   var h4font = 18*percentage;
+   var pfont = 16*percentage;
+   $('.box').css('height',currheight+'px');
+   $('.box').css('width',currheight+'px');
+   $('.box').css('background-size', currheight+'px');
+   $('h1').css('font-size', h1font+'px');
+   $('h4').css('font-size', h4font+'px');
+   $('p').css('font-size', pfont+'px');
 });
 
 

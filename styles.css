@@ -22,26 +22,19 @@ a:hover {
 	text-decoration: none;
 }
 
+#philanthropy .row {
+	margin-left: 8%;
+}
+
 .box {
 	height: 300px;
 	width: 300px;
-	margin-left: auto;
-	margin-right: auto;
 	cursor: pointer;
 	margin-bottom: 10px;
-	left: 50%;
 }
 
-.comm, .mtw {
-	margin-left: 10px;
-}
-
-.bbbs, .rfl {
-	margin-left: -150px;
-}
-
-.gotb, .tgb {
-	margin-left: -460px;
+.comm, .mtw, .bbbs, .rfl, .gotb, .tgb {
+	margin-right: 10px;
 }
 
 .gotb {
@@ -211,4 +204,16 @@ a, a:visited {
 	-o-transition: background .5s ease;
 	transition: background .5s ease;
 	-moz-transition: background .5s ease;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 16px;
 }
