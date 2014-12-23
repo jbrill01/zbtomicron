@@ -13,7 +13,7 @@ body {
 	overflow-x: hidden;
 }
 
-.about, .recruitment {
+#about, #recruitment {
 	background-size: cover;
 	background: #ccc;
 }
@@ -92,11 +92,11 @@ a:hover {
 	background-image: url(images/mtw1.png);
 }
 
-.new, .about, .philanthropy, .recruitment, .brothers {
+#new, #about, #philanthropy, #recruitment, #brothers {
 	padding: 75px 80px 80px 75px;
 }
 
-.new {
+#new {
 	padding-top: 150px;
 }
 
@@ -166,8 +166,16 @@ p {
 	position: absolute;
 	z-index: 9999;
 	margin: auto;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(245, 245, 245, 0.9);
 	color: #000;
 	text-align: left;
 	padding: 5px;
+}
+
+.exit {
+	left: 100%;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	font-size: 15px;
 }

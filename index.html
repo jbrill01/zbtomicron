@@ -8,7 +8,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="styles.css">
         <script src="js/scrolling-nav.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
+        <script src="jquery.easing.min.js"></script>
         <script src="js/colorscroll.js"></script>
         <script src="resizing.js"></script>
         <link rel="shortcut icon" href="favicon.ico" />
@@ -18,18 +18,19 @@
         <div class="header">
             <img class="logo" src="images/logo.png" alt="zbt omicron"/>
             <div class="nav"><ul>
-                <li>what's new</li>
-                <li>who we are</li>
-                <li>philanthropy</li>
-                <li>recruitment</li>
-                <li>brothers</li>
-                <li>contact</li>
+                <li><a class="page-scroll n1" href="#new">what's new</a></li>
+                <li><a class="page-scroll n2" href="#about">who we are</a></li>
+                <li><a class="page-scroll n3" href="#philanthropy">philanthropy</a></li>
+                <li><a class="page-scroll n4" href="#recruitment">recruitment</a></li>
+                <li><a class="page-scroll n5" href="#brothers">brothers</a></li>
+                <li><a class="page-scroll n6" href="mailto:president@zbtomicron.com">contact</a></li>
             </ul></div>
             <a href="#"><img class="crest" src="images/crest.png" alt="zbt crest"/></a>
         </div>
         <div class="cycle resizable">
         </div>
-        <div class="new">
+        <div id="fill1"></div>
+        <div id="new">
             <h1>Spring Rush 2015</h1>
             <h4>This year, our Spring Rush events will be as follows:
                 </br>
@@ -43,19 +44,27 @@
                 For more information or if you have any questions, please contact <a href="mailto:Ryan.Hastings-Echo@tufts.edu">Ryan Hastings-Echo</a>.
             </h4>
         </div>
-        <div class="about">
+        <div id="fill2"></div>
+        <div id="about">
             <h1>A Powerhouse of Excellence</h1>
             <h4>The Omicon Chapter of Zeta Beta Tau was founded in 1987 at Tufts University. In the small room of 102 Hill Hall, our first four founders met to plan out the future of the chapter. Since that point, ZBT Omicron has enjoyed over 25 years of great memories, philanthropic efforts and social events at Tufts University.</h4></br>
             <h4>Since its founding, ZBT Omicron has seen success, a success that has continued over the past few years. We have fundraised tens of thousands of dollars for the Boston Children's Hospital, received national awards and accolades like Most Improved ZBT Chapter, and maintain our commitment to being Tufts' only non-pledging fraternity.</h4></br>
             <h4>We, the members of Zeta Beta Tau fraternity, believe that the development of the individual as a responsible, mature member of society is the primary goal of the university today. We believe that fraternity offers to the university community a unique, desirable and successful means of achieving this goal. In fulfilling the purposes of fraternity, we dedicate ourselves to the principles of Intellectual Awareness, Social Responsibility, Integrity, and Brotherly Love.</h4>
         </div>
         <div id="gotbBox">
-            <button class="exit" onmousedown="toggleGotbOverlay()">X</p></button>
-            <p><h4>Get On The Ball </h4>
-            Info about GOTB</p> 
-
+            <button class="exit" onmousedown="toggleGotbOverlay()">x</p></button>
+            <h1>Get On The Ball</h1>
+            <h4>Get On The Ball is ZBT Omicron's weeklong fundraiser for the <b>Boston Children's Hospital</b>. During the week, we raise money and awareness for the Hospital, rolling a 6x6 ball around campus. We get the entire Tufts and Medford/Somerville community involved, taking all contributions from monetary donations to just signing the ball.</h4>
+            <h4>Last year, in 2013 we raised $5500 during our weeklong fundraiser, cosponsoring with countless businesses (JP Licks, Kickass Cupcakes) and working with sorority Alpha Omicron Pi.</h4>
         </div>
-        <div class="philanthropy">
+        <div id="tgbBox">
+            <button class="exit" onmousedown="toggleTgbOverlay()">x</p></button>
+            <h1>Be The Match</h1>
+            <h4>In April 2014, ZBT Omicron brought Be The Match to Tufts University. In cosponsorship with the Tufts Association of Southeast Asians and the Tufts Psychology Department, ZBT helped enter over fifty members of the Tufts community into the bone marrow registry.</h4>
+            <h4>Bringing Be the Match to the Tufts Campus was a part of Tufts Gives Back, the one day of the year dedicated to giving back to the community. Tufts Gives Back was created by ZBT, and 2014 was its inaugural year.</h4>
+        </div>
+        <div id="fill3"></div>
+        <div id="philanthropy">
             <h1>Committed to Social Responsibility</h1>
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box gotb" onmousedown="toggleGotbOverlay()"></div>
@@ -68,7 +77,8 @@
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box mtw" onmousedown="toggleMtwOverlay()"></div>
             </div>
         </div>
-        <div class="recruitment">
+        <div id="fill4"></div>
+        <div id="recruitment">
             <h1>Spring Rush 2015</h1>
             <h4>This year, our Spring Rush events will be as follows:</br>
                 1. Tuesday, January 20th – 9:00pm
@@ -81,7 +91,8 @@
                 For more information or if you have any questions, please contact <a href="mailto:Ryan.Hastings-Echo@tufts.edu">Ryan Hastings-Echo</a>.
             </h4>
         </div>
-        <div class="brothers">
+        <div id="fill5"></div>
+        <div id="brothers">
             <h1>Brothers</h1>
             <ul class="leadership">Leadership
                 <li>Matthew Felsenfeld, President</li>
