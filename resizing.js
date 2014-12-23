@@ -41,13 +41,26 @@ images[2] = "images/gotb2.png";
 images[3] = "images/brothers.png";
 
 //GOTB Slideshow//
-var imgs = [], x=-1;
+var imgs = [], x=-1, y=-1, z=-1, a=-1, b=-1;
 imgs[0] = "images/gotb.png";
 imgs[1] = "images/gotb2.png";
 imgs[2] = "images/gotb3.png";
 imgs[3] = "images/gotb4.png";
 imgs[4] = "images/gotb5.png";
 imgs[5] = "images/gotb6.png";
+
+//TGB Slideshow//
+var ims = [];
+ims[0] = "images/tgb3.png";
+ims[1] = "images/tgb4.png";
+ims[2] = "images/tgb5.png";
+ims[3] = "images/tgb2.png";
+
+//RFL Slideshow//
+var igs = [];
+igs[0] = "images/rfl3.png";
+igs[1] = "images/rfl4.png";
+igs[2] = "images/rfl2.png";
 
 function displayNextImage() {
   if($(".cycle").is(":visible")) {
@@ -56,9 +69,22 @@ function displayNextImage() {
        $(".cycle").css("background-image", "url("+images[x]+")").fadeIn(1000);
     });
 }
-  x = (x === images.length - 1) ? 0 : x + 1;
+  y = (y === imgs.length - 1) ? 0 : y + 1;
   $("#gotbBox .pic").fadeOut("1000", function() {
-    $(this).attr("src", imgs[x]).fadeIn(1000);
+    $(this).attr("src", imgs[y]).fadeIn(1000);
+  });
+
+  z = (z === ims.length - 1) ? 0 : z + 1;
+  $("#tgbBox .pic").fadeOut("1000", function() {
+    $(this).attr("src", ims[z]).fadeIn(1000);
+  });
+  $("#mtw .pic").fadeOut("1000", function() {
+    $(this).attr("src", ims[z]).fadeIn(1000);
+  });
+
+  a = (a === igs.length - 1) ? 0 : a + 1;
+  $("#rflBox .pic").fadeOut("1000", function() {
+    $(this).attr("src", igs[a]).fadeIn(1000);
   });
 }
 
@@ -77,7 +103,6 @@ $(function() {
         event.preventDefault();
     });
 });
-
 
 //Toggling Boxes//
 
@@ -107,6 +132,7 @@ function toggleTgbOverlay(){
     var width = $(window).width();
     $('#tgbBox').css('height', height);
     $('#tgbBox').css('width', width);
+    $('#tgbBox .pic').css('height', height/2);
     $("html, body").scrollTop($('#tgbBox').offset().top);
   $("body").css("overflow", "hidden");
   }
@@ -137,6 +163,7 @@ function toggleCommOverlay(){
     var width = $(window).width();
     $('#commBox').css('height', height);
     $('#commBox').css('width', width);
+    $('#commBox .pic').css('height', height/2);
     $("html, body").scrollTop($('#commBox').offset().top);
   $("body").css("overflow", "hidden");
   }
@@ -152,6 +179,7 @@ function toggleRflOverlay(){
     var width = $(window).width();
     $('#rflBox').css('height', height);
     $('#rflBox').css('width', width);
+    $('#rflBox .pic').css('height', height/2);
     $("html, body").scrollTop($('#rflBox').offset().top);
   $("body").css("overflow", "hidden");
   }
@@ -167,6 +195,7 @@ function toggleMtwOverlay(){
     var width = $(window).width();
     $('#mtwBox').css('height', height);
     $('#mtwBox').css('width', width);
+    $('#mtwBox .pic').css('height', height/2);
     $("html, body").scrollTop($('#mtwBox').offset().top);
   $("body").css("overflow", "hidden");
   }
