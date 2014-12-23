@@ -6,9 +6,9 @@ $(document).ready(function() {
    var windowWidth = $(window).width();
    var percentage = windowWidth/1284;
    var currheight = 300*percentage;
-   var h1font = 30*percentage;
-   var h4font = 18*percentage;
-   var pfont = 16*percentage;
+   var h1font = 30*percentage+3;
+   var h4font = 18*percentage+3;
+   var pfont = 16*percentage+3;
    $('.box').css('height',currheight+'px');
    $('.box').css('width',currheight+'px');
    $('.box').css('background-size', currheight+'px');
@@ -25,9 +25,9 @@ $(window).resize(function() {
    var windowWidth = $(window).width();
    var percentage = windowWidth/1284;
    var currheight = 300*percentage;
-   var h1font = 30*percentage;
-   var h4font = 18*percentage;
-   var pfont = 16*percentage;
+   var h1font = 30*percentage+3;
+   var h4font = 18*percentage+3;
+   var pfont = 16*percentage+3;
    $('.box').css('height',currheight+'px');
    $('.box').css('width',currheight+'px');
    $('.box').css('background-size', currheight+'px');
@@ -233,59 +233,69 @@ function toggleMtwOverlay(){
        wS = $(this).scrollTop();
    if (wS > hT-20){
        $(".n1").css("text-decoration","underline");    
-       $(".n2").css("text-decoration","none");    
-       $(".n3").css("text-decoration","none");    
-       $(".n4").css("text-decoration","none");    
-       $(".n5").css("text-decoration","none");    
+       $(".n1").css("color","#ffd700");   
 } else {
        $(".n1").css("text-decoration","none");
+       $(".n1").css("color","#000080");
    }
 
        hT = $('#fill2').offset().top,
        wS = $(this).scrollTop();
    if (wS > hT-20){
        $(".n2").css("text-decoration","underline");    
+       $(".n2").css("color","#ffd700");
        $(".n1").css("text-decoration","none");    
-       $(".n3").css("text-decoration","none");    
-       $(".n4").css("text-decoration","none");    
-       $(".n5").css("text-decoration","none");   
+       $(".n1").css("color","#000080");
    } else {
        $(".n2").css("text-decoration","none");
+       $(".n2").css("color","#000080");
    }
 
        hT = $('#fill3').offset().top,
        wS = $(this).scrollTop();
    if (wS > hT-20) {
        $(".n3").css("text-decoration","underline");    
+       $(".n3").css("color","#ffd700");
        $(".n1").css("text-decoration","none");    
+       $(".n1").css("color","#000080");
        $(".n2").css("text-decoration","none");    
-       $(".n4").css("text-decoration","none");    
-       $(".n5").css("text-decoration","none");   
+       $(".n2").css("color","#000080");  
    } else {
        $(".n3").css("text-decoration","none");
+       $(".n3").css("color","#000080");
    }
 
        hT = $('#fill4').offset().top,
        wS = $(this).scrollTop();
    if (wS > hT-20) {
        $(".n4").css("text-decoration","underline");    
+       $(".n4").css("color","#ffd700");
        $(".n1").css("text-decoration","none");    
+       $(".n1").css("color","#000080");
        $(".n2").css("text-decoration","none");    
+       $(".n2").css("color","#000080");
        $(".n3").css("text-decoration","none");    
-       $(".n5").css("text-decoration","none");   
+       $(".n3").css("color","#000080");  
    } else {
        $(".n4").css("text-decoration","none");
+       $(".n4").css("color","#000080");
    }
        hT = $('#fill5').offset().top,
        wS = $(this).scrollTop();
    if (wS > hT-20) {
        $(".n5").css("text-decoration","underline");    
+       $(".n5").css("color","#ffd700");
        $(".n1").css("text-decoration","none");    
+       $(".n1").css("color","#000080");
        $(".n2").css("text-decoration","none");    
+       $(".n2").css("color","#000080");
        $(".n3").css("text-decoration","none");    
+       $(".n3").css("color","#000080");
        $(".n4").css("text-decoration","none");   
+       $(".n4").css("color","#000080");
    } else {
        $(".n5").css("text-decoration","none");
+       $(".n5").css("color","#000080");
    }
 
 });

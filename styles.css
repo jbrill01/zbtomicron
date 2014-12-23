@@ -154,6 +154,10 @@ a, a:visited {
 	color: #ffd700;
 }
 
+.nav .hover:hover {
+	color: #ffd700;
+}
+
 .panel-footer {
 	background-color: white;
 }
