@@ -7,7 +7,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
         <script src="jquery.easing.min.js"></script>
-        <script src="resizing.js"></script>
+        <script src
+        ="resizing.js"></script>
         <link rel="stylesheet" href="styles.css">
         <link rel="shortcut icon" href="favicon.ico" />
 	</head>
@@ -116,18 +117,28 @@
         </div>
         <div id="fill5"></div>
         <div id="brothers">
-            <h1>Brothers</h1>
-            <ul class="leadership">Leadership
-                <li>Matthew Felsenfeld, President</li>
-                <li>Joseph Cirone, Vice President</li>
-                <li>Ryan Hastings-Echo, Brotherhood Development Director</li>
-            </ul>
+            <h1>Brothers</h1><ul>
+            <li id="t1" onmousedown="togText1()">Leadership</li>
+            <li id= "t2" onmousedown="togText2()">Beta Delta</li>
+            <li id="t3" onmousedown="togText3()">Beta Zeta</li>
+            <li id="t4" onmousedown="togText4()">Beta Eta</li>
+            <li id="t5" onmousedown="togText5()">Beta Theta</li>
+            <li id="t6" onmousedown="togText6()">Beta Iota</li>
+            </ul></br>
+        <div id="toggleText">
+            <h5>President: Matthew Felsenfeld</h5><h5>
+                Vice President: Joseph Cirone</h5><h5>
+                Brotherhood Development Director: Ryan Hastings-Echo</h5><h5>
+                Secretary: Jacob Mittleman</h5><h5>
+                Treasurer: Jonathan Sirota</br>
+            </h5>
+        </div>
         </div>
         <div class="contact panel-footer">
                     <a href="#"><img src="images/twitter.png" alt="twitter"/></a>
                     <a href="https://www.facebook.com/pages/ZBT-Omicron-Tufts/308573335871570"><img src="images/fb.png" alt="facebook"/></a>
                     <a href="mailto:president@zbtomicron.com"><img src="images/email.png" alt="email"/></a>
-                    <a href="http://jbrill01.github.io" class="righty"><p style="color: black">ZBT Omicron Tufts, 126 Packard Ave, Medford MA</br>(C) Jason Brillon, 2014</p></a>
+                    <p style="color: black">ZBT Omicron Tufts, 126 Packard Ave, Medford MA</br><a href="http://jbrill01.github.io">(C) Jason Brillon, 2014</a></p>
         </div></div>
     </body>
 </html>

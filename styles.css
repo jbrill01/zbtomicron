@@ -126,7 +126,7 @@ a:hover {
 	padding-right: 40px;
 }
 
-.nav ul li {
+.nav ul li, #brothers ul li {
 	display: inline-block;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -214,10 +214,22 @@ h1 {
 	font-size: 30px;
 }
 
-h4 {
+h4, #brothers li {
 	font-size: 18px;
 }
 
+#brothers li {
+	cursor: pointer;
+}
+
+h5 {
+	font-size: 17px;
+}
+
 p {
-	font-size: 16px;
+	font-size: 10px;
+}
+
+#leadership {
+	display: none;
 }
