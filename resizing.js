@@ -52,3 +52,19 @@ function displayNextImage() {
 $(document).ready(function startTimer() {
       setInterval(displayNextImage, 8000);
 });
+
+
+
+//Toggling Boxes//
+
+function toggleGotbOverlay(){
+  if ($('#gotbBox').css('display')=="block") {
+    $('#gotbBox').css('display', 'none');
+  } else {
+    $('#gotbBox').css('display', 'block');
+    var height = $(window).height();
+    var width = $(window).width();
+    $('#gotbBox').css('height', height);
+    $('#gotbBox').css('width', width);
+  }
+}

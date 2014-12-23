@@ -160,3 +160,14 @@ p {
 .panel-footer {
 	background-color: white;
 }
+
+#gotbBox, #tgbBox, #bbbsBox, #commBox, #rflBox, #mtwBox {
+	display: none;
+	position: absolute;
+	z-index: 9999;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #000;
+	text-align: left;
+	padding: 5px;
+}

@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Tufts ZBT - Omicron Chapter</title>
+		<title>Tufts Zeta Beta Tau</title>
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
@@ -49,17 +49,23 @@
             <h4>Since its founding, ZBT Omicron has seen success, a success that has continued over the past few years. We have fundraised tens of thousands of dollars for the Boston Children's Hospital, received national awards and accolades like Most Improved ZBT Chapter, and maintain our commitment to being Tufts' only non-pledging fraternity.</h4></br>
             <h4>We, the members of Zeta Beta Tau fraternity, believe that the development of the individual as a responsible, mature member of society is the primary goal of the university today. We believe that fraternity offers to the university community a unique, desirable and successful means of achieving this goal. In fulfilling the purposes of fraternity, we dedicate ourselves to the principles of Intellectual Awareness, Social Responsibility, Integrity, and Brotherly Love.</h4>
         </div>
+        <div id="gotbBox">
+            <button class="exit" onmousedown="toggleGotbOverlay()">X</p></button>
+            <p><h4>Get On The Ball </h4>
+            Info about GOTB</p> 
+
+        </div>
         <div class="philanthropy">
             <h1>Committed to Social Responsibility</h1>
             <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box gotb"></div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box rfl"></div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box comm"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box gotb" onmousedown="toggleGotbOverlay()"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box rfl" onmousedown="toggleRflOverlay()"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box comm" onmousedown="toggleCommOverlay()"></div>
             </div>
             <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box tgb"></div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box bbbs"></div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box mtw"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box tgb" onmousedown="toggleTgbOverlay()"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box bbbs" onmousedown="toggleBbbsOverlay()"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box mtw" onmousedown="toggleMtwOverlay()"></div>
             </div>
         </div>
         <div class="recruitment">
